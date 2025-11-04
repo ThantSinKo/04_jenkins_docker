@@ -7,7 +7,6 @@ CREATE TABLE `attraction` (
   `longitude` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
 INSERT INTO `attraction` (`id`, `name`, `detail`, `coverimage`, `latitude`, `longitude`) VALUES
 (1, 'Phi Phi Islands', 'Phi Phi Islands are a group of islands in Thailand between the large island of Phuket and the Malacca Coastal Strait of Thailand.', 'https://www.melivecode.com/attractions/1.jpg', 7.737619, 98.7068755),
 (2, 'Eiffel Tower', 'Eiffel Tower is one of the most famous structures in the world. Eiffel Tower is named after a leading French architect and engineer. It was built as a symbol of the World Fair in 1889.', 'https://www.melivecode.com/attractions/2.jpg', 48.8583736, 2.2922926),
